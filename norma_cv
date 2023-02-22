@@ -1,0 +1,102 @@
+<html>
+    <meta lang="es">
+    <title>CV_Norma</title>
+    <link rel= "stylesheet" type= "text/css" herf= "http.//fonts.googleapis.com/cssfamily=Tangerine">
+    <script>
+      function info(){alert('Año de egreso 1999\n promedio:10.');}
+        
+      function info2(){alert('Año de egreso 2000\n promedio:8.');}
+
+
+      function info3(){alert('Año de egreso 2001\n promedio:9.');}
+        
+        function saludar(){alert('hola bienvenido');}
+    </script>
+    <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+    body{background-color: darkgray;color:black;font-family: 'Tangerine';}
+    h1 {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center ;font-size:50px;}
+    img{height:200px;float: right;margin: 100px;border:dotted;}
+    h3{font-weight: bold;font-size:50px;text-decoration: underline;font-family: 'Gloock';} 
+    label{font-weight: bold;}
+   .navegacion ul{margin:5px;padding: 5px;}
+   .navegacion li {text-decoration: none;display:block;float:left;margin:10px;}
+   a{color:white;background-color:black;font-size: 25px;text-decoration: none;}
+   a:hover{background-color:white;color:black}
+   td{padding:20px;margin-top: 120px;}
+   tr,td,p{font-size: 25px;}
+   li{font-size:25px;font-family: 'Bangers';}
+   div label{font-size:25px;}
+   div{padding: 30px;}
+    </style>
+<body onload="saludar()">
+
+<form  >
+    <h1> Curriculum Vitae</h1>
+    <ul class="navegacion"><li><a href="#datos">Datos Personales</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencia">Experiencia </a></li>
+        <li><a href="#educacion">Educación</a></li></ul>
+
+    <img src="foto_cv">
+
+
+<br>
+<div><h3 name="datos " id="datos">Datos personales</h3>
+
+
+    <table>
+        <tr><td><i class="fa-solid fa-user"></i><label>Nombre:</label></td><td>Norma Cristina</td></tr>
+        <tr><td><label>Apellido:</label></td><td>Hoyos</td></tr>
+        <tr><td><Label>Fecha de Nacimiento</Label></td><td>9 de Febrero 1975</td></tr>
+        <tr><td><label>Domicilio</label></td><td>B. 100viv. mzna 108b C.27</td></tr>
+        <tr><td> <label>Número de Telefono</label></td><td>12345678</td></tr>
+        <tr><td> <label>Correo Electronico</label></td><td>normafl@gmail.com</td></tr>
+        <tr><td><label>Genero</label></td><td>Mujer</td></tr>
+        <tr><td><label>Nacionalidaad</label></td><td>Argentina</td></tr>
+        <tr><td><label>Estado civil</label></td><td>Soltera</td></tr>
+    </table>
+
+    
+    
+    
+    
+   </div>
+    
+    <hr>
+   <div><h3 name="habilidades" id="habilidades">Habilidades</h3>
+    <ul><li>Ventas</li><li>trabajo en equipo</li><li>toma de desiciones</li><li>buena presencia</li><li>compañerismo</li><li>creatividad</li></ul>
+   </div>
+     <hr>
+   <div> <h3 id="experiencia">Experiencia Profesional</h3>
+    <label>Recepcionista</label>
+    <p>Rapipago / Pago facil</p>
+    <label>Atención al cliente</label>
+    <p>Cell Jaz Fabrica de Fundas</p>
+    <label>Atencion al cliente</label>
+    <p>Fiambreria Bambino Donat</p>
+    <label>Repositora de Góndolas</label>
+    <p>Distribuidora Iñaki</p>
+    </div>
+    <hr>
+    <div>
+        <h3 id="educacion">Educación</h3>
+    <label>Bachillerato en Economia y Administración</label>
+    <a onclick="info()"><p>Escuela de Comercio Profesor Julio Cortez 5091</p></a>
+    
+    <label>Computación</label>
+    <a onclick="info2()"><p>Fuco</p></a>
+    
+    <label>Estilista</label>
+    <a onclick="info3()"><p>Fuco</p></a>
+    
+    </div>
+    
+<input type="button" value="imprimir" onclick="" >
+<iframe hidden="hidden" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1834.1909458722982!2d-64.32597123692777!3d-23.156257992425683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1677019560542!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
